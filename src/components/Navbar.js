@@ -5,13 +5,13 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/">Completed Tasks</Link>
+        <Link to="/completed">Completed Tasks</Link>
       </li>
       <li>
-        <Link to="/blogs">To-Do</Link>
+        <Link to="/todo">To-Do</Link>
       </li>
       <li>
-        <Link to="/portfolio">Calendar</Link>
+        <Link to="/calendar">Calendar</Link>
       </li>
     </>
   );
