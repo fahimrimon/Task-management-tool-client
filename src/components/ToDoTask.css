@@ -4,12 +4,13 @@
     align-items: center;
     background-color: #fff;
     width: 500px;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 10px;
     border-radius: 8px;
   }
-  .App h1{
+  .main h1{
     text-align: center;
+    margin-bottom: 10px;
   }
   .form{
     display: flex;

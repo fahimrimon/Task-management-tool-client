@@ -82,11 +82,11 @@ const ToDoTask = () => {
   );
   return (
     <div className="main">
-      <h1>Todo List</h1>
+      <h1 className="text-secondary">Daily Task</h1>
       <form className="form" onSubmit={(e) => addItem(e)}>
         <input
           type="text"
-          placeholder="Add Todo Item"
+          placeholder="Add Your Task"
           onChange={(e) => {
             setItemText(e.target.value);
           }}
