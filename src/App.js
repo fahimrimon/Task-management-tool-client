@@ -4,6 +4,7 @@ import Calendar from './components/Calendar';
 import CompletedTask from './components/CompletedTask';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 import ToDoTask from './components/ToDoTask';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/completed' element={<CompletedTask></CompletedTask>}></Route>
         <Route path='/todo' element={<ToDoTask></ToDoTask>}></Route>
         <Route path='/calendar' element={<Calendar></Calendar>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
